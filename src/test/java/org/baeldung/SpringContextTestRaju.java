@@ -9,7 +9,7 @@ import com.baeldung.ldap.javaconfig.AppConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = AppConfig.class)
-public class SpringContextTest {
+public class SpringContextTestRaju {
 
     @Test
     public void whenSpringContextIsBootstrapped_thenNoExceptions() {

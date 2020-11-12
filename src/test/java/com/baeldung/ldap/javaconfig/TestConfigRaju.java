@@ -19,7 +19,7 @@ import org.springframework.ldap.test.TestContextSourceFactoryBean;
 @ComponentScan(basePackages = {"com.baeldung.ldap.*"})
 @EnableLdapRepositories(basePackages = "com.baeldung.ldap.**")
 @Profile("testlive")
-public class TestConfig {
+public class TestConfigRaju {
     @Autowired
     private Environment env;
 
